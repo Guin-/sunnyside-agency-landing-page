@@ -32,8 +32,43 @@
     --font-size-body: 18px;
 }
 
+body {
+    margin: 0;
+}
+
 .hero {
+    min-width: 375px;
+    height: 538px;
+    display: flex;
+    flex-direction: column;
     background-image: url('./images/mobile/image-header.jpg');
+    background-size: cover
+}
+
+.hero-content {
+    height: 100%;
+    text-align: center;
+}
+
+.hero-content h1 {
+    margin: 52px 24px;
+    font-family: var(--font-family-fraunces);
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 6.25px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.nav-bar {
+    margin: 32px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: none;
 }
 
 .attribution { font-size: 11px; text-align: center; }
