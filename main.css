@@ -130,9 +130,15 @@ body {
     border: none;
 }
 
+/* LEARN MORE CALL TO ACTION */
+
+.learn-more {
+    min-width: 375px;
+}
+
 .learn-more-image {
     height: 312px;
-    width: 375px;
+    min-width: 375px;
     background-size: cover;
 
 }
@@ -208,6 +214,62 @@ body {
 
 .lmb-2::after {
     background: #FE7766;
+}
+
+/* SERVICES SECTION */
+
+.services-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-content {
+    min-width: 375px;
+    height: 600px;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.services-text {
+    padding: 59px 24px;
+}
+
+.services-content h2 {
+    font-family: var(--font-family-fraunces);
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.2px;
+}
+
+.services-content p {
+    margin: 3px 0px;
+    font-family: var(--font-family-barlow);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.114286px;
+}
+
+.services-graphic-design h2, p{
+    color: var(--dark-desaturated-cyan);
+}
+
+.services-photography h2, p {
+    color: var(--dark-blue);
+}
+
+.services-graphic-design {
+    background-image: url('images/mobile/image-graphic-design.jpg');
+}
+
+.services-photography {
+    background-image: url('images/mobile/image-photography.jpg');
 }
 
 .attribution { font-size: 11px; text-align: center; }
