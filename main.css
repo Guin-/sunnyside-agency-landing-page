@@ -272,6 +272,98 @@ body {
     background-image: url('images/mobile/image-photography.jpg');
 }
 
+/* TESTIMONIALS SECTION */
+
+.testimonials-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 24px;
+}
+
+.testimonials-section h1 {
+    font-family: var(--font-family-fraunces);
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--grayish-blue);
+}
+
+.client-testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.testimonial-copy {
+    font-family: var(--font-family-barlow);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: var(--very-dark-grayish-blue);
+}
+
+.client-image {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    background-color: gray;
+    background-size: contain;
+}
+
+.image-emily {
+    background-image: url('images/image-emily.jpg');
+}
+
+.image-thomas {
+    background-image: url('images/image-thomas.jpg');
+}
+
+.image-jennie {
+    background-image: url('images/image-jennie.jpg');
+}
+
+.client-info p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 4px 0px;
+}
+
+.client-name {
+    font-family: var(--font-family-fraunces);
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.client-title{
+    font-family: var(--font-family-barlow);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: var(--grayish-blue);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
