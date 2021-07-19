@@ -469,4 +469,22 @@ body {
         background: rgba(255, 255, 255, 0.25);
         color: white;
     }
+
+    .hero {
+        min-width: 375px;
+        height: 800px;
+        background-image: url('./images/desktop/image-header.jpg');
+    }
+
+    .hero-content {
+        height: 100%;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        margin: 85px 24px;
+        font-size: 56px;
+        line-height: 69px;
+        letter-spacing: 8.75px;
+    }
 }
