@@ -425,7 +425,16 @@ body {
 
 @media only screen and (min-width: 1024px) {
 
+    .nav-bar {
+        margin: 34px 48px 34px 40px;
+        align-items: center;
+    }
+
     .hamburger {
+        display: none;
+    }
+
+    .nav-menu:focus-within {
         display: none;
     }
 
@@ -437,8 +446,27 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         width: 450px;
         list-style: none;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        padding-inline-start: 0px;
+    }
 
+    .nav-links ul li {
+        font-size: 18px;
+        color: var(--white);
+        letter-spacing: -0.128571px;
+    }
+
+    .contact-button {
+        color: var(--very-dark-desaturated-blue);
+        background-color: var(--white);
+    }
+
+    .contact-button:hover {
+        background: rgba(255, 255, 255, 0.25);
+        color: white;
     }
 }
