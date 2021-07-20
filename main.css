@@ -134,6 +134,8 @@ body {
 
 .learn-more {
     min-width: 375px;
+    display: flex;
+    flex-direction: column;
 }
 
 .learn-more-image {
@@ -486,5 +488,111 @@ body {
         font-size: 56px;
         line-height: 69px;
         letter-spacing: 8.75px;
+    }
+
+    .learn-more {
+        min-width: 1440px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .learn-more-image {
+        width: 720px;
+        height: 600px;
+    }
+
+    .image-transform {
+        background-image: url('images/desktop/image-transform.jpg');
+    }
+
+    .image-stand-out {
+        background-image: url('images/desktop/image-stand-out.jpg');
+    }
+
+    .learn-more-transform {
+        order: -1;
+    }
+
+    .learn-more-transform-text {
+        padding: 158px 90px 158px 165px;
+    }
+
+    .learn-more-content {
+        width: 720px;
+        height: 600px;
+        padding: 0;
+    }
+
+    .learn-more-text {
+        width: 445px;
+        height: 285px;
+        padding: 158px 165px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .learn-more-stand-out-text {
+        padding: 158px 165px 158px 90px;
+    }
+
+    .learn-more-text h1 {
+        font-size: 40px;
+        line-height: 49.32px;
+        letter-spacing: -0.285714px;
+        text-align: left;
+    }
+
+    .learn-more-text p {
+         text-align: left;
+    }
+
+    .learn-more-button {
+        margin: 0px;
+    }
+
+    .services-graphic-design {
+        background-image: url('images/desktop/image-graphic-design.jpg');
+    }
+
+    .services-photography {
+        background-image: url('images/desktop/image-photography.jpg');
+    }
+
+    .services-section {
+        flex-direction: row;
+    }
+
+    .services-content {
+        width: 720px;
+    }
+
+    .services-text {
+         padding: 59px 190px;
+    }
+
+    .testimonials-section {
+        padding: 160px 165px;
+    }
+
+    .client-testimonials {
+        flex-direction: row;
+    }
+
+    .testimonials-section h1 {
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 5px;
+    }
+
+    .testimonial-copy {
+        padding: 58px 0px 69px 0px;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+
+    .client-testimonial {
+        padding: 81px 15px 0px 15px;
+
     }
 }
