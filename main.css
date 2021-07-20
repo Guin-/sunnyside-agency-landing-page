@@ -550,4 +550,25 @@ body {
     .learn-more-button {
         margin: 0px;
     }
+
+    .services-graphic-design {
+        background-image: url('images/desktop/image-graphic-design.jpg');
+    }
+
+    .services-photography {
+        background-image: url('images/desktop/image-photography.jpg');
+    }
+
+    .services-section {
+        flex-direction: row;
+    }
+
+    .services-content {
+        width: 720px;
+    }
+
+    .services-text {
+         padding: 59px 190px;
+    }
+
 }
