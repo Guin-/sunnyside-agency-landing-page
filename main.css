@@ -134,6 +134,8 @@ body {
 
 .learn-more {
     min-width: 375px;
+    display: flex;
+    flex-direction: column;
 }
 
 .learn-more-image {
@@ -486,5 +488,66 @@ body {
         font-size: 56px;
         line-height: 69px;
         letter-spacing: 8.75px;
+    }
+
+    .learn-more {
+        min-width: 1440px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .learn-more-image {
+        width: 720px;
+        height: 600px;
+    }
+
+    .image-transform {
+        background-image: url('images/desktop/image-transform.jpg');
+    }
+
+    .image-stand-out {
+        background-image: url('images/desktop/image-stand-out.jpg');
+    }
+
+    .learn-more-transform {
+        order: -1;
+    }
+
+    .learn-more-transform-text {
+        padding: 158px 90px 158px 165px;
+    }
+
+    .learn-more-content {
+        width: 720px;
+        height: 600px;
+        padding: 0;
+    }
+
+    .learn-more-text {
+        width: 445px;
+        height: 285px;
+        padding: 158px 165px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .learn-more-stand-out-text {
+        padding: 158px 165px 158px 90px;
+    }
+
+    .learn-more-text h1 {
+        font-size: 40px;
+        line-height: 49.32px;
+        letter-spacing: -0.285714px;
+        text-align: left;
+    }
+
+    .learn-more-text p {
+         text-align: left;
+    }
+
+    .learn-more-button {
+        margin: 0px;
     }
 }
