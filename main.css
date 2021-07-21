@@ -490,9 +490,10 @@ body {
     }
 
     .hero {
-        min-width: 375px;
+        min-width: 1440px;
         height: 800px;
         background-image: url('./images/desktop/image-header.jpg');
+        background-position: center;
     }
 
     .hero-content {
@@ -581,7 +582,8 @@ body {
     }
 
     .services-content {
-        width: 720px;
+        min-width: 720px;
+        width: 50%;
     }
 
     .services-text {
@@ -589,6 +591,7 @@ body {
     }
 
     .testimonials-section {
+        min-width: 1024px;
         padding: 160px 165px;
     }
 
@@ -630,6 +633,10 @@ body {
 
     .gallery-image-sugar {
         background: url('./images/desktop/image-gallery-sugarcubes.jpg');
+    }
+
+    footer {
+        min-width: 1440px;
     }
 
     .image-footer div {
